@@ -3,8 +3,7 @@ import Link from 'next/link';
 import { Anchor, Box, grommet, Grommet, Heading, Paragraph } from 'grommet';
 import { FormNext } from 'grommet-icons';
 
-const SecondPage = () => {
-  return (
+const SecondPage = () => (
     <Grommet theme={grommet} full>
       <Box pad="large">
         <Heading size="small">Second Page</Heading>
@@ -21,6 +20,5 @@ const SecondPage = () => {
       </Box>
     </Grommet>
   );
-};
 
 export default SecondPage;
